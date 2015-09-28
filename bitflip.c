@@ -15,11 +15,6 @@
  */
 
 /*
- * Permission to republish this is *NOT* granted unless you massively clean
- * it up. You may remove this statement after it has been cleaned up.
- */
-
-/*
  *  Cleaned up and improved on 09/26/2015 Conor Patrick
  */
 
