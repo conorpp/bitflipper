@@ -4,6 +4,8 @@
 *.obj
 *.elf
 
+bitflipper
+
 # Precompiled Headers
 *.gch
 *.pch
