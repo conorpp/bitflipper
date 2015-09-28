@@ -14,19 +14,16 @@ Examples:
 ```bash
 # 1 flip in corrupted file.
 $ ./bitflipper examples/source.f8d0839dd728cb9a723e32058dcc386070d5e3b5.cpp.1flip.z f8d0839dd728cb9a723e32058dcc386070d5e3b5
-loading file examples/source.f8d0839dd728cb9a723e32058dcc386070d5e3b5.cpp.1flip.z  hash f8d0839dd728cb9a723e32058dcc386070d5e3b5
 Checking the uncompressed version
 Found original file.  Saving to out.bin
 
 # 2 flips in corrupted file.
 $ ./bitflipper examples/test.dddd6ee7cc3af6ca5e814d9522acf57bb7b7cdc1.txt.2flips.z dddd6ee7cc3af6ca5e814d9522acf57bb7b7cdc1
-loading file examples/test.dddd6ee7cc3af6ca5e814d9522acf57bb7b7cdc1.txt.2flips.z  hash dddd6ee7cc3af6ca5e814d9522acf57bb7b7cdc1
 Checking the uncompressed version
 Found original file.  Saving to out.bin
 
 # 3 bit flips in corrupted file.  This one takes ~ 10 seconds
 $ ./bitflipper examples/test2.e35151d8fd6445f9361e4237bb282e707efe4090.txt.3flips.z e35151d8fd6445f9361e4237bb282e707efe4090
-loading file examples/test2.e35151d8fd6445f9361e4237bb282e707efe4090.txt.3flips.z  hash e35151d8fd6445f9361e4237bb282e707efe4090
 Checking the uncompressed version
 Found original file.  Saving to out.bin
 ```
